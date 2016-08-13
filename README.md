@@ -5,6 +5,7 @@ Performance benchmark for a simple computing and pointer intensive program in Ja
 # Results
 
 Language | Result | Relative Performance
+--- | --- | ---
 Java | 24.33s | 0.56
 C#   |  21.22s | 0.64
 C++  | 13.58s  | 1.00
