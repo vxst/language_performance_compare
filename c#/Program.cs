@@ -53,7 +53,7 @@ namespace CShapeStudy
 	{
 		public static void Main (string[] args)
 		{
-			const int n = 5000000;
+			const int n = 10000000;
 			System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
 			List<BigObject> s = new List<BigObject>();
 			double result = 0.0;

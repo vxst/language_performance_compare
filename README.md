@@ -4,10 +4,11 @@ Performance benchmark for a simple computing and pointer intensive program in Ja
 
 # Results
 
- * Java: 11.64s
- * C#:   8.38s
- * C++:  6.66s
- * C++ with reference-counting weak gc: 8.27s
+Language | Result | Relative Performance
+Java | 24.33s | 0.56
+C#   |  21.22s | 0.64
+C++  | 13.58s  | 1.00
+C++ reference-counting gc | 16.97s | 0.80
 
 > Copyright (C) 2016  Shan Ting <vxst@vxst.org>
 > 

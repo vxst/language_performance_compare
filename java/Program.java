@@ -21,7 +21,7 @@ import java.util.Scanner;
 public class Program{
 	public static void main (String[] args)
 	{
-		final int n = 5000000;
+		final int n = 10000000;
 		Stopwatch stopwatch = new Stopwatch();
 		ArrayList<BigObject> s = new ArrayList<BigObject>();
 		double result = 0.0;

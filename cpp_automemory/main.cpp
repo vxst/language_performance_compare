@@ -57,7 +57,7 @@ public:
 };
 
 int main(){
-	const int n = 5000000;
+	const int n = 10000000;
 	shared_ptr<vector<shared_ptr<BigObject>>> s(new vector<shared_ptr<BigObject>>);
 	double result = 0.0;
 	double start_time = time_unix();

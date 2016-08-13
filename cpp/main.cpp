@@ -60,7 +60,7 @@ public:
 };
 
 int main(){
-	const int n = 5000000;
+	const int n = 10000000;
 	vector<BigObject*>* s = new vector<BigObject*>;
 	double result = 0.0;
 	double start_time = time_unix();
