@@ -79,6 +79,7 @@ int main(){
 	for(int i = 0; i < (int)s->size(); i++)
 		delete s->at(i);
 	s->clear();
+	s->shrink_to_fit();
 	double end_time = time_unix();
 	printf("Time: %.3lf\n", end_time - start_time);
 	delete s;
