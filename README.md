@@ -5,7 +5,7 @@ Performance benchmark for a simple computing and pointer intensive program in Ja
 # Results
 
 Language | Result | Relative Performance | Memory peak | Memory after called GC |Relative Memory | LOC | Relative Effort | Total Relative Effort
---- | --- | --- | --- | --- | --- | ---
+--- | --- | --- | --- | --- | --- | --- | --- | --- | ---
 Java | 24.33s | 0.56 | 1768.9M | 1769.2M | 1.80 | 134 | 1.0 | 1.03
 C#   |  21.22s | 0.64 | 1548.37M | 187.9M | 1.58 | 87 | 1.0 | 0.67
 C++  | 13.58s  | 1.00 | 979.95M | 0.6M | 1.0 | 86 | 1.5 | 1.0
